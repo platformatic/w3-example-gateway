@@ -1,0 +1,15 @@
+{
+  "name": "service1",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "fastify": "^5.0.0"
+  },
+  "dependencies": {
+    "@platformatic/gateway": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

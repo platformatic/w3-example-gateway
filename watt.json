@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/runtime/3.6.0.json",
+  "services": [
+    {
+      "id": "Composer",
+      "path": "services/composer"
+    },
+    {
+      "id": "nodeservice",
+      "url": "git@github.com:platformatic/w3-example-node-service.git"
+    }
+  ],
+
+  "logger": {
+    "level": "info"
+  },
+  "server": {
+    "hostname": "127.0.0.1",
+    "port": "3042"
+  },
+  "entrypoint": "Composer"
+}
